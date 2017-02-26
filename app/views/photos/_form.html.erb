@@ -9,6 +9,8 @@
   <%= f.file_field :image %>
 
   <% if @photo.image_data? %>
+    <hr />
+    <%= image_tag @photo.image_url(:thumb) %>
     Remove attachment: <%= f.check_box :remove_image %>
   <% end %>
 

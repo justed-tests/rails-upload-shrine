@@ -15,6 +15,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 gem 'shrine'
+gem 'image_processing'
+gem 'mini_magick', '>= 4.3.5'
 
 group :development, :test do
   gem 'byebug', platform: :mri
